@@ -2,6 +2,7 @@ package com.example.demo;
 
 import com.example.demo.model.User;
 import com.example.demo.repository.UserRepository;
+import com.example.demo.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -24,6 +25,9 @@ public class DemoApplication implements ApplicationRunner {
 	@Autowired
 	private UserRepository userRepository;
 
+	@Autowired
+	private UserService userService;
+
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
@@ -35,6 +39,9 @@ public class DemoApplication implements ApplicationRunner {
 
 	@Override
 	public void run(ApplicationArguments args) throws Exception{
+		log.info("All Users{}",userRepository.findAll());
+
+		User user = userService.createUser("zhangsan");
 		log.info("All Users{}",userRepository.findAll());
 	}
 

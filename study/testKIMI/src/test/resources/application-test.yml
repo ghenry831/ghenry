@@ -1,0 +1,14 @@
+# 测试环境配置
+sftp:
+  host: 127.0.0.1
+  port: 22
+  username: test
+  password: test
+  server-encoding: GBK
+  timeout: 30000
+  remote-dir: /test/upload
+
+local:
+  file:
+    path: ./test.txt
+    encoding: GBK

@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+sftp:
+  host: 10.211.55.4
+  port: 22
+  username: parallels
+  password: qwer1234
+  server-encoding: UTF-8
+  timeout: 30000
+  remote-dir: /home/parallels/test
+
+local:
+  file:
+    encoding: GBK

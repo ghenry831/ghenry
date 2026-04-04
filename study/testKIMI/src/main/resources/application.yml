@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+# SFTP配置
+sftp:
+  # SFTP服务器主机地址
+  host: 10.211.55.4
+  # SFTP服务器端口
+  port: 22
+  # SFTP登录用户名
+  username: parallels
+  # SFTP登录密码
+  password: qwer1234
+  # 远程服务器文件编码（GBK）
+  server-encoding: GBK
+  # 连接超时时间（毫秒）
+  timeout: 30000
+  # 远程上传目录
+  remote-dir: /home/parallels/test
+
+# 本地文件配置
+local:
+  file:
+    # 要上传的本地文件路径（支持相对路径或绝对路径）
+    path: ./test.txt
+    # 本地文件编码（GBK）
+    encoding: GBK

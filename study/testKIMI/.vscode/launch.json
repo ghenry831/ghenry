@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SftpUploadApplication<sftp-upload>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.sftp.SftpUploadApplication",
+            "projectName": "sftp-upload",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

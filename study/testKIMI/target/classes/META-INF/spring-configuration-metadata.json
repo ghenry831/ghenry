@@ -1,0 +1,64 @@
+{
+  "groups": [
+    {
+      "name": "local.file",
+      "type": "com.example.sftp.config.LocalFileProperties",
+      "sourceType": "com.example.sftp.config.LocalFileProperties"
+    },
+    {
+      "name": "sftp",
+      "type": "com.example.sftp.config.SftpProperties",
+      "sourceType": "com.example.sftp.config.SftpProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "local.file.encoding",
+      "type": "java.lang.String",
+      "description": "锟斤拷锟斤拷锟侥硷拷锟斤拷锟斤拷",
+      "sourceType": "com.example.sftp.config.LocalFileProperties"
+    },
+    {
+      "name": "local.file.path",
+      "type": "java.lang.String",
+      "description": "要锟较达拷锟侥憋拷锟斤拷锟侥硷拷路锟斤拷",
+      "sourceType": "com.example.sftp.config.LocalFileProperties"
+    },
+    {
+      "name": "sftp.host",
+      "type": "java.lang.String",
+      "sourceType": "com.example.sftp.config.SftpProperties"
+    },
+    {
+      "name": "sftp.password",
+      "type": "java.lang.String",
+      "sourceType": "com.example.sftp.config.SftpProperties"
+    },
+    {
+      "name": "sftp.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.sftp.config.SftpProperties"
+    },
+    {
+      "name": "sftp.remote-dir",
+      "type": "java.lang.String",
+      "sourceType": "com.example.sftp.config.SftpProperties"
+    },
+    {
+      "name": "sftp.server-encoding",
+      "type": "java.lang.String",
+      "sourceType": "com.example.sftp.config.SftpProperties"
+    },
+    {
+      "name": "sftp.timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.sftp.config.SftpProperties"
+    },
+    {
+      "name": "sftp.username",
+      "type": "java.lang.String",
+      "sourceType": "com.example.sftp.config.SftpProperties"
+    }
+  ],
+  "hints": []
+}

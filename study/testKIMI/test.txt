@@ -1,0 +1,4 @@
+这是一个测试文件，用于测试SFTP上传功能。
+文件名和内容都支持GBK编码。
+This is a test file for SFTP upload.
+测试中文文件名：测试文件.txt
